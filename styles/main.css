@@ -160,6 +160,7 @@ img {
 .about_selected{
   background-color: transparent;
   color: #ffffff;
+  border-radius: 6px;
 
   padding: 8px;
 }
