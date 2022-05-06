@@ -3,7 +3,6 @@
   <head>
     <title>www.group-emotion.com</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
@@ -25,16 +24,23 @@
             <img src="images/logo_ampi_light1.svg" alt="site logo" />
           </div>
           <div class="page-header__wrapper">
-            <select id="selector" name="selector">
-              <option value="english">EN</option>
-              <option value="français" selected>FR</option>
+            <select class="about_selected">
+              <option class="about_selected-option" value="fr" selected>
+                FR
+              </option>
+              <option class="about_selected-option" value="en">EN</option>
             </select>
           </div>
         </div>
         <div class="about_block">
           <div class="about_info">
-            <div class="about_title"></div>
-            <div class="about_descr"></div>
+            <div class="about_title lng_title">
+              AMP interactive devient e’motion
+            </div>
+            <div class="about_descr lng_descr">
+              Le show va bientôt se poursuivre sur cette nouvelle plateforme
+              web! Restez connectés.
+            </div>
           </div>
           <div class="about_image">
             <video
@@ -52,7 +58,6 @@
       </div>
     </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>
