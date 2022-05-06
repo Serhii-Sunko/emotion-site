@@ -7,6 +7,10 @@ const langArr = {
     en: "The show will continue right here on this new web platform. Stay turned!",
     fr: "Le show va bientôt se poursuivre sur cette nouvelle plateforme web! Restez connectés.",
   },
+  footer: {
+    en: "<span>&copy;</span> All rights reserved, 2022",
+    fr: "<span>&copy;</span> Tous les droits réservés, 2022",
+  },
 };
 
 // --------------------------Select Section --------------------------
@@ -15,7 +19,7 @@ const select = document.querySelector("select");
 const allLang = ["en", "fr"];
 select.addEventListener("change", changeURLLanguage);
 
-function changeURLLanguage() {
+function changeURLLanguage(e) {
   let lang = select.value;
   location.href = window.location.pathname + "#" + lang;
   location.reload();
@@ -41,5 +45,5 @@ function changeLanguage() {
 
 changeLanguage();
 const currentLanguage = window.location.hash.substr(1);
-console.log(currentLanguage);
+// console.log(currentLanguage);
 localStorage.setItem("language", JSON.stringify(currentLanguage));

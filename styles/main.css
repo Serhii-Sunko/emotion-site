@@ -16,7 +16,7 @@ body {
   color: #000;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Oswald", sans-serif;
+  font-family: "Orbitron", sans-serif;
   line-height: 1.15;
   background-color: #000000;
 
@@ -224,6 +224,33 @@ img {
 
   width: 100%;
   height: 100%;
+}
+
+.footer{
+  padding: 60px 0px 20px 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  line-height: 1.15;
+  background-color: #000000;
+  
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.footer_text {
+    display:flex;
+    justify-content: flex-end;
+    margin: 0 48px;
+    
+    -webkit-font-smoothing: subpixel-antialiased;  
+      
 }
 
 /* About. */
