@@ -249,8 +249,13 @@ img {
     justify-content: flex-end;
     margin: 0 48px;
     
-    -webkit-font-smoothing: subpixel-antialiased;  
-      
+    -webkit-font-smoothing: subpixel-antialiased;       
+}
+
+.footer_img{
+  background-color: #ffffff;
+  border-radius: 50%;
+
 }
 
 /* About. */
