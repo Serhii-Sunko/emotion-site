@@ -34,7 +34,7 @@ img {
 
 /* Button. */
 
-.button {
+/* .button {
   display: inline-block;
 
   padding: 22px 32px 24px;
@@ -53,7 +53,7 @@ img {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-}
+} */
 
 /* Button. */
 
@@ -227,6 +227,9 @@ img {
 }
 
 .footer{
+  position: relative;
+  bottom:0px;
+  right:0px;
   padding: 60px 0px 20px 0;
   color: #ffffff;
   font-size: 16px;
@@ -253,8 +256,27 @@ img {
 }
 
 .footer_img{
-  background-color: #ffffff;
-  border-radius: 50%;
+ 
+
+  position: absolute;
+    right: 50px;
+    bottom: 0px;
+  
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+  
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  
+    background-image: url("images/icons/Virgule_emotion_noir_RVB_72dpi_transparent.png");
+    background-size: contain;
+    background-color: #ffffff;
+    border-radius: 50%;
+  
+    cursor: pointer;
 
 }
 
