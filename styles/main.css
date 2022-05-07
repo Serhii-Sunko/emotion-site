@@ -323,9 +323,12 @@ img {
     line-height: 28px;
   }
 
-  .about_button .button {
-    width: 100%;
+  .about_footer{
+    width: 200px;
   }
+  /* .about_button .button {
+    width: 100%;
+  } */
 
   /* About. */
 }
