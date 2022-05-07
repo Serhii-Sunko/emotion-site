@@ -16,7 +16,8 @@ body {
   color: #000000;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Orbitron", sans-serif;
+  /* font-family: 'BodoniFLF', sans-serif; */
+  font-family: 'Bodoni Moda', sans-serif;
   line-height: 1.15;
   background-color: #ffffff;
 
@@ -143,7 +144,8 @@ img {
   color: #000000;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Orbitron", sans-serif;
+  /* font-family: 'BodoniFLF', sans-serif; */
+  font-family: 'Bodoni Moda', sans-serif;
   line-height: 1.15;
   background-color: #ffffff;
   
@@ -174,8 +176,6 @@ img {
     border: none;
     background-color: transparent;
   
-    background-image: url("images/icons/Virgule_emotion_noir_RVB_72dpi_transparent.png");
-    background-size: contain;
     background-color: #ffffff;
     border-radius: 50%;
   
