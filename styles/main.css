@@ -46,9 +46,9 @@ img {
   padding: 18px 48px;
 }
 
-/* .about_group {
+.about_group {
   max-width: 100%;
-} */
+}
 
 .about_header {
   display: flex;
