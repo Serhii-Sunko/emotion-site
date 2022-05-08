@@ -60,6 +60,7 @@ img {
 }
 
 .about_info {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -70,6 +71,7 @@ img {
 }
 
 .about_title {
+  
   color: #000;
   font-size: 28px;
   line-height: 42px;
