@@ -56,23 +56,20 @@ img {
 }
 
 .about_group {
-  /* max-width: 990px; */
-  max-width: 100%;
-}
-
-.about_header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-  /* padding: 18px 48px 18px 0; */
+  /* max-width: 990px; */
+  max-width: 100%;
 }
+
 
 .about_info {
   position: absolute;
     top: 10%;
     left:0%;
+    z-index: 998;
 
   display: flex;
   flex-wrap: wrap;
