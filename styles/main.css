@@ -131,7 +131,7 @@ img {
 }
 .about_selector{
   position: absolute;
-  top:10%;
+  top:50px;
   right:48px;
   z-index: 999;
 }
