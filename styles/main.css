@@ -40,13 +40,9 @@ img {
   display: block;
 }
 .main{
-  min-height: 100vh;
+  flex: 1 1 auto;
 }
 /* About. */
-.wrapper{  
-
-  min-height: 100%;
-}
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -222,11 +218,11 @@ img {
   flex-direction: column;
 }
 
-  .main {
+.main {
     flex: 1 1 auto;
 
 
-  }
+}
   
 
   .about {
