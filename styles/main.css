@@ -194,8 +194,8 @@ img {
 .footer_img{
   
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 190px;
+    height: auto;
   
     margin: 0;
     padding: 0;
@@ -330,8 +330,6 @@ img {
   .footer {
    padding: 10px 48px;
 
-   height: 64px;
-
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -351,8 +349,8 @@ img {
   .footer_img {
 
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: auto;
 
     margin: 0;
     padding: 0;
@@ -365,9 +363,6 @@ img {
 
   }
 
-  .about_footer {
-    width: 200px;
-  }
 }
 
 @media only screen and (max-width: 538px) {
@@ -481,7 +476,6 @@ img {
 .footer {
 
   padding: 10px 48px; 
-  height: 60px;
   
   text-align: center;
 }
@@ -493,8 +487,20 @@ img {
 .footer_img {
 
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: auto;
 
 }
+}
+@media only screen and (max-width: 379px) {
+.footer {
+  padding: 10px 48px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  }
 }
