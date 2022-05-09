@@ -277,7 +277,12 @@ img {
   }
 
   .about_selector {
-    position: static;
+  
+    position: absolute;
+    top: 20px;
+    right: 48px;
+    z-index: 999;
+
 
   }
 
