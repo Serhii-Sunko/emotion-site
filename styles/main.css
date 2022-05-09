@@ -39,7 +39,9 @@ a {
 img {
   display: block;
 }
-
+.main{
+  min-height: 100vh;
+}
 /* About. */
 .wrapper{  
 
